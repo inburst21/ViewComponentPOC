@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/text_view"
+    style="@style/Base.Text.InputLayout"
+    app:hintTextAppearance="@style/Base.Text.InputLayout.Error"
+    app:boxStrokeColor="@color/color_state">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/reference"
+        style="@style/Base.Text.InputText"/>
+</com.google.android.material.textfield.TextInputLayout>
+

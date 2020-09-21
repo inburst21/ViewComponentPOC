@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="check_box">#FF8CC5F5</color>
+    <color name="primary_white">#DEFFFFFF</color>
+    <color name="background_secondary">#1CFFFFFF</color>
+    <color name="background_primary">#121212</color>
+    <color name="background_toolbar">#0DFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="text_label">#5EAFF0</color>
+    <color name="text_input">#99FFFFFF</color>
+
+    <color name="text_border">#61FFFFFF</color>
+
+
+</resources>

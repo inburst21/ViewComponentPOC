@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base" />
+
+    <style name="Base.Dialog">
+        <item name="android:layout_width">@dimen/width_dialog_normal</item>
+        <item name="android:layout_height">@dimen/height_dialog_normal</item>
+        <item name="android:radius">80dp</item>
+    </style>
+
+    <style name="Base.AppTheme" parent="Theme.MaterialComponents.DayNight" />
+
+    <style name="Base.Button" parent="Widget.MaterialComponents.Button">
+        <!-- Set background drawable and text size of the buttons here -->
+        <item name="android:layout_width">@dimen/width_button_normal</item>
+        <item name="android:layout_height">@dimen/match_parent</item>
+        <item name="android:textColor">@color/text_label</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:minWidth">@dimen/min_button_size</item>
+        <item name="android:textSize">@dimen/text_button</item>
+    </style>
+
+    <style name="Base.Text" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/primary_white</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="Base.Text.Title" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:layout_height">@dimen/height_list_item</item>
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:textColor">@color/primary_white</item>
+        <item name="android:layout_width">@dimen/match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Base.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <!-- Define a background for the button bar and a divider between the buttons here -->
+        <item name="android:layout_height">@dimen/height_toolbar_normal</item>
+        <item name="android:layout_width">@dimen/match_parent</item>
+        <item name="android:background">@color/background_toolbar</item>
+    </style>
+
+    <style name="Base.ListItem" parent="Base.Text">
+        <item name="android:layout_height">@dimen/height_list_item</item>
+        <item name="android:layout_width">@dimen/match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/primary_white</item>
+    </style>
+
+    <style name="Base.Text.InputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_height">@dimen/height_text_input_layout</item>
+        <item name="android:layout_width">@dimen/match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/primary_white</item>
+        <item name="android:textColorHint">@color/text_input</item>
+        <item name="android:padding">@dimen/spacing_medium</item>
+    </style>
+
+    <style name="Base.Text.InputLayout.Error" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_height">@dimen/height_text_input_layout</item>
+        <item name="android:layout_width">@dimen/match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/text_button</item>
+        <item name="android:textColor">@android:color/holo_red_light</item>
+    </style>
+
+    <style name="Base.Text.InputText" parent="Base.Text.InputLayout">
+        <item name="android:layout_height">@dimen/match_parent</item>
+        <item name="android:layout_width">@dimen/match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/spacing_medium</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textColor">@color/text_input</item>
+        <item name="singleSelection">true</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="Base.Dialog.View" parent="Theme.MaterialComponents.DayNight.Dialog">
+        <item name="android:layout_height">@dimen/match_parent</item>
+        <item name="android:layout_width">@dimen/width_dialog_normal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/background_secondary</item>
+    </style>
+
+</resources>

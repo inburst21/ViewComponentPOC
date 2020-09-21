@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="base_padding">16pt</dimen>
+    <dimen name="spacing_medium">24pt</dimen>
+
+    <dimen name="height_toolbar_normal">60pt</dimen>
+    <dimen name="height_dialog_normal">320pt</dimen>
+    <dimen name="width_dialog_normal">300pt</dimen>
+
+    <dimen name="height_text_selection">55pt</dimen>
+    <dimen name="height_text_input_layout">75pt</dimen>
+
+    <dimen name="height_list_item">24pt</dimen>
+
+
+    <dimen name="text_normal">18pt</dimen>
+    <dimen name="text_title">22pt</dimen>
+    <dimen name="text_button">16pt</dimen>
+
+    <dimen name="size_check_box">24pt</dimen>
+    <dimen name="min_button_size">70pt</dimen>
+</resources>
